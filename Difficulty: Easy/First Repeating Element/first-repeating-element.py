@@ -1,16 +1,14 @@
 class Solution:
     def firstRepeated(self, arr):
         freq = {}
-
-    
         for num in arr:
-            freq[num] = freq.get(num, 0) + 1
-
-        
+            freq[num]=freq.get(num,0)+1
         for i in range(len(arr)):
-            if freq[arr[i]] > 1:
-                return i + 1    
-
-        return -1
-    
+            if freq[arr[i]]>1:
+                return i+1
+            
+        return -1   
+         
+            
+         
         
