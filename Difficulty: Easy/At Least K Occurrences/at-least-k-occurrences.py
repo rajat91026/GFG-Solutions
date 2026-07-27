@@ -1,0 +1,18 @@
+class Solution:
+    def firstElementKTime(self, arr,k):
+        freq = {}
+        for num in arr:
+            freq[num]=freq.get(num,0)+1
+        
+            if freq[num] == k:
+                return num
+        return -1
+            
+        
+       
+                
+        
+      
+            
+         
+    
