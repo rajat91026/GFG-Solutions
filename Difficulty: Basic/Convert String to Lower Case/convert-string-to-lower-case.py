@@ -1,0 +1,6 @@
+class Solution:
+    def toLower (self, s: str) -> str:
+        return s.lower()
+        
+        # code here 
+        
